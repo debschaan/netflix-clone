@@ -1,0 +1,47 @@
+footer{
+    padding: 5rem 14.5rem 1rem;
+    flex-direction: column;
+}
+
+.footer-copyright span{
+    color: var(--gray);
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+/* SOCIAL */
+.social--list{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social--item i{
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+/* OPTIONS */
+.options--list{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.options--item a{
+    display: list-item;
+    margin-bottom: .9rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    color: var(--gray);
+    text-decoration: none;
+    width: 15rem;
+    font-weight: 300;
+    font-size: .8rem;
+}
+
+.options--item a:hover{
+    text-decoration: underline;
+}

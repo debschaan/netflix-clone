@@ -1,0 +1,75 @@
+/* HERO SECTION */
+.hero--button {
+    font-weight: 700;
+    border: none;
+    padding: 1.1rem 2.2rem;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero--button i {
+    margin-right: .5rem;
+}
+
+.play {
+    background-color: var(--white);
+    color: var(--black-background);
+}
+
+.play:hover {
+    background-color: var(--white-btn-hover);
+}
+
+.info {
+    background-color: var(--gray-btn);
+    color: var(--white);
+}
+
+.info:hover {
+    background-color: var(--gray-btn-hover);
+}
+
+/* MAIN SECTION - LEFT AND RIGHT CONTROLS */
+
+.carousel-button {
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+    padding: 3.3rem 1rem;
+    border-radius: .2rem;
+    background-color: var(--black-btn);
+    transition: all 0.1s;
+}
+
+.carousel-button b{
+    color: var(--white);
+    transition: all 0.1s;
+    opacity: .7;
+}
+
+.carousel-button b:hover{
+    transform: scale(1.25);
+    transform-origin: center;
+    opacity: 1;
+}
+
+.carousel-button:hover{
+    background-color: var(--black-btn-hover) ;
+}
+
+/* FOOTER */
+.service-code-button{
+    padding: .4rem .4rem;
+    background-color: transparent;
+    color: var(--gray);
+    border: solid .09rem var(--gray);
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.service-code-button:hover{
+    color: var(--white);
+    cursor: pointer;
+}

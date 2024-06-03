@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8451551fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <nav role="navigation">
+                <span class="primary-menu--logo" data-logo="Netflix's logo"><a href="#"></a></span>
+                <ul class="primary-menu--list">
+                    <li class="primary-menu--item"><a href="#">Home</a></li>
+                    <li class="primary-menu--item"><a href="#">Series</a></li>
+                    <li class="primary-menu--item"><a href="#">Movies</a></li>
+                    <li class="primary-menu--item"><a href="#">Trending</a></li>
+                    <li class="primary-menu--item"><a href="#">My list</a></li>
+                </ul>
+                <ul class="secondary-menu--list">
+                    <li class="secondary-menu--item"><a href="#"><i class="fa-solid fa-search"></i></a></li>
+                    <li class="secondary-menu--item"><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                    <li class="secondary-menu--item user">
+                        <span class="secondary-menu--user-icon" data-user="User's icon"><a href="#"></a></span>
+                        <a href="#"><i class="fa-solid fa-caret-down"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <div role="banner" class="hero">
+                <img class="hero--logo" src="assets/img/poster 1.png" alt="Movie title logo">
+                <p class="hero--description">In a state-of-the-art penitentiary, an inmate participates in an experiment with drugs that control emotions for a pharmaceutical genius.</p>
+                <button class="hero--button play"><i class="fa-solid fa-play"></i>Assistir</button>
+                <button class="hero--button info"><i class="fa-solid fa-circle-info"></i>Mais informações</button>
+            </div>
+        </header>
+
+        <main>
+            <h1 class="visually-hidden">Homepage Netflix</h1>
+
+            <section class="section__category">
+                <h3 class="category--title"><a href="#">My list</a></h3>
+                <div class="category--carousel">
+                    <span class="carousel-button prev" role="button" aria-label="See before titles"><b class="fa-solid fa-chevron-left"></b></span>
+                    <div class="carousel__container">
+                        <ul class="carousel--list">
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_1.png" alt="Bojack Horseman"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_2.png" alt="Ozark"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_3.png" alt="A Vizinha da Mulher na Janela"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_4.png" alt="Breaking Bad"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_5.png" alt="The End of the F***ing World"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_6.png" alt="Russian Doll"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/minhalista_7.png" alt="Pray Away"></a></li>
+                        </ul>
+                    </div>
+                    <span class="carousel-button next" role="button" aria-label="See more titles"><b class="fa-solid fa-chevron-right"></b></span>
+                </div>
+            </section>
+
+            <section class="section__category">
+                <h3 class="category--title"><a href="#">Trending</a></h3>
+                <div class="category--carousel">
+                    <span class="carousel-button prev" role="button" aria-label="See previous titles"><b class="fa-solid fa-chevron-left"></b></span>
+                    <div class="carousel__container">
+                        <ul class="carousel--list">
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_1.png" alt="Stranger Things"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_2.png" alt="The Umbrella Academy"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_4.png" alt="Arremessando Alto"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_5.png" alt="Amor & Gelato"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_3.png" alt="Peaky Blinders"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_6.png" alt="La Casa de Papel - Coreia"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/top_7.png" alt="Polar"></a></li>
+                        </ul>
+                    </div>
+                    <span class="carousel-button next" role="button" aria-label="See more titles"><b class="fa-solid fa-chevron-right"></b></span>
+                </div>
+            </section>
+
+            <section class="section__category">
+                <h3 class="category--title"><a href="#">Foreign series</a></h3>
+                <div class="category--carousel">
+                    <span class="carousel-button prev" role="button" aria-label="See previous titles"><b class="fa-solid fa-chevron-left"></b></span>
+                    <div class="carousel__container">
+                        <ul class="carousel--list">
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_1.png" alt="Queen Loreta"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_2.png" alt="As 7 Vidas de Lea"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_3.png" alt="Young Royals"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_4.png" alt="Dark"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_5.png" alt="Bem-vindos ao Eden"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_6.png" alt="Ozark"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/estrangeiras_7.png" alt="Elize Matsunga"></a></li>
+                        </ul>
+                    </div>
+                    <span class="carousel-button next" role="button" aria-label="See more titles"><b class="fa-solid fa-chevron-right"></b></span>
+                </div>
+            </section>
+
+            <section class="section__category">
+                <h3 class="category--title"><a href="#">Eccentric acid humor series</a></h3>
+                <div class="category--carousel">
+                    <span class="carousel-button prev" role="button" aria-label="See previous titles"><b class="fa-solid fa-chevron-left"></b></span>
+                    <div class="carousel__container">
+                        <ul class="carousel--list">
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_1.png" alt="Fyre"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_2.png" alt="Friends from College"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_3.png" alt="Riverdale"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_4.png" alt="Velvet Buzzsaw"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_5.png" alt="Amazing Interiors"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_6.png" alt="The Good Place"></a></li>
+                            <li class="carousel--item"><a href="#"><img src="/assets/img/excentricas_7.png" alt="Unbreakable Kimmy Schmidt"></a></li>
+                        </ul>
+                    </div>
+                    <span class="carousel-button next" role="button" aria-label="See more titles"><b class="fa-solid fa-chevron-right"></b></span>
+                </div>
+            </section>
+        </main>
+        <footer role="contentinfo">
+            <ul class="social--list">
+                <li class="social--item"><a aria-label="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="social--item"><a aria-label="instagram" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="social--item"><a aria-label="twitter" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="social--item"><a aria-label="youtube" href="#"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+            <div class="options">
+                <ul class="options--list">
+                    <li class="options--item"><a href="#">Audiodescription</a></li>
+                    <li class="options--item"><a href="#">Investor relations</a></li>
+                    <li class="options--item"><a href="#">Legal information</a></li>
+                    <li class="options--item"><a href="#">Help Center</a></li>
+                    <li class="options--item"><a href="#">Recruitment</a></li>
+                    <li class="options--item"><a href="#">Cookie preferences</a></li>
+                    <li class="options--item"><a href="#">Gift Cards</a></li>
+                    <li class="options--item"><a href="#">Terms of Use</a></li>
+                    <li class="options--item"><a href="#">Legal Notice</a></li>
+                    <li class="options--item"><a href="#">Press</a></li>
+                    <li class="options--item"><a href="#">Confidentiality</a></li>
+                    <li class="options--item"><a href="#">Contacts</a></li>
+                    <li class="options--item"><a href="#">Informations</a></li>
+                </ul>
+            </div>
+            <button class="service-code-button">Service Code</button>
+            <div class="footer-copyright"><span>© 2024 Débora Schaan.</span></div>
+        </footer>
+    </div>
+    <script src="/app/main.js"></script>
+</body>
+</html>
+
