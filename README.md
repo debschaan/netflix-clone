@@ -1,7 +1,8 @@
 # Netflix Clone
 
 ![Printscreen of the project.](/assets/img/PrintScreenNetflix.png)
-**Live Demo:** [https://codepen.io/debschaan/pen/LYoxqKX]
+
+**Live Demo:** [CodePen Preview](https://codepen.io/debschaan/pen/LYoxqKX)
 
 ## Description
 
@@ -15,7 +16,7 @@ This is a simplified FrontEnd project of Netflix. It was a practice of HTML, CSS
 
 ## Features
 
-![Walkthrough of the Netflix Project.](/assets/gif/Jun-03-2024%2018-23-46.gif "Walkthrough of the Netflix Project.")
+![NetflixCloneWalkthrough8mb](https://github.com/debschaan/netflix-clone/assets/154461014/b3016f43-ff1c-49e7-86b0-c7246d42b3d1)
 
 - Carousel scrolling
 - CSS Flexbox
@@ -24,9 +25,11 @@ This is a simplified FrontEnd project of Netflix. It was a practice of HTML, CSS
 
 ## Tools Used
 
+- **Structure:** HTML5
 - **Styling:** CSS
+- **Function:** JavaScript
 - **Deployment Platform:** GitHub Pages
-- **Additional Tools:** Live Server, ESLint, Prettier, Figma
+- **Additional Tools:** Visual Studio Code, Live Server, ESLint, Prettier, Figma
 
 ## Improvements
 
