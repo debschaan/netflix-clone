@@ -24,7 +24,7 @@ body {
 }
 
 .background {
-    height: 100vh;
+    height: 50rem;
     background-image: linear-gradient(
         to bottom,
         rgba(20, 20, 20, 0.9) 5%,
