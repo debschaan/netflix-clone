@@ -1,0 +1,50 @@
+$background: rgb(20, 20, 20);
+$gray: #808080;
+$white: white;
+$hover-white: rgba(255, 255, 255, 0.777);
+$hover-black: rgba(0, 0, 0, 0.8);
+$hover-gray: rgba(109, 109, 110, 0.525);
+$black-btn: rgba(0, 0, 0, 0.382);
+$gray-btn: rgba(120, 120, 120, 0.6);
+$img-width: 40rem;
+
+%no-decoration {text-decoration: none;}
+%u-decoration {text-decoration: underline;}
+
+@mixin font ($weight: 700, $size: 1rem) {
+    font-weight: $weight;
+    font-size: $size;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $white;
+    background-color: $background;
+}
+
+.background {
+    height: 50rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.9) 5%,
+        rgba(20, 20, 20, 0.2) 20%,
+        rgba(20, 20, 20, 0.2) 80%,
+        rgba(20, 20, 20, 0.8) 100%
+      ),
+      url(/assets/img/banner\ 1.svg);
+    background-size: cover;
+}
+
+.visually-hidden {
+    clip: rect(1px 1px 1px 1px) !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
+
+@import 'nav', 'header', 'buttons', 'main', 'footer';

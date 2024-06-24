@@ -1,0 +1,15 @@
+.hero {
+    padding: 4rem;
+
+    &--logo{
+        width: $img-width;
+        margin-bottom: 1rem;
+    }
+
+    &--description {
+        width: $img-width;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+}

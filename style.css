@@ -1,47 +1,19 @@
-@import url(styles/buttons.css);
-@import url(styles/header.css);
-@import url(styles/nav.css);
-@import url(styles/main.css);
-@import url(styles/footer.css);
+/* Error: Undefined variable.
+ *   ,
+ * 5 |         width: $img-width;
+ *   |                ^^^^^^^^^^
+ *   '
+ *   sass/_header.scss 5:16  @import
+ *   sass/style.scss 1:9     root stylesheet */
 
-:root {
-    --black-background: rgb(20, 20, 20);
-    --gray: #808080;
-    --white: white;
-    --white-btn-hover: rgba(255, 255, 255, 0.777);
-    --black-btn: rgba(0, 0, 0, 0.382);
-    --black-btn-hover: rgba(0, 0, 0, 0.8);
-    --gray-btn: rgba(120, 120, 120, 0.6);
-    --gray-btn-hover: rgba(109, 109, 110, 0.525);
+/* body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 5 \2502          width: $img-width;\a   \2502                 ^^^^^^^^^^\a   \2575 \a   sass/_header.scss 5:16  @import\a   sass/style.scss 1:9     root stylesheet";
 }
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--white);
-    background-color: var(--black-background);
-}
-
-.background {
-    height: 50rem;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(20, 20, 20, 0.9) 5%,
-        rgba(20, 20, 20, 0.2) 20%,
-        rgba(20, 20, 20, 0.2) 80%,
-        rgba(20, 20, 20, 0.8) 100%
-      ),
-      url(/assets/img/banner\ 1.svg);
-    background-size: cover;
-}
-
-.visually-hidden {
-    clip: rect(1px 1px 1px 1px) !important;
-    clip: rect(1px, 1px, 1px, 1px) !important;
-    height: 1px !important;
-    overflow: hidden !important;
-    position: absolute !important;
-    white-space: nowrap !important;
-    width: 1px !important;
-}
+ */

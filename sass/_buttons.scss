@@ -1,0 +1,61 @@
+.hero--button {
+    @include font;
+    border: none;
+    padding: 1.1rem 2.2rem;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    i {
+        margin-right: .5rem;
+    }
+}
+
+@mixin button ($background, $color) {
+    background-color:$background;
+    color: $color;
+    cursor: pointer;
+}
+
+.play {
+    @include button($white, $background);
+    &:hover{
+        background-color: $hover-white;
+    }
+}
+
+.info {
+    @include button($gray-btn, $white);
+    &:hover{
+        background-color: $hover-gray;
+    }
+}
+
+.carousel-button {
+    @include button($black-btn, $white);
+    font-size: 2rem;
+    z-index: 1;
+    padding: 3.3rem 1rem;
+    border-radius: .2rem;
+    b {
+        transition: all 0.1s;
+        opacity: .7;
+        &:hover{
+            transform: scale(1.25);
+            transform-origin: center;
+            opacity: 1;
+        }
+    }
+    &:hover{
+        background-color: $hover-black;
+    }
+}
+
+.service-code-button{
+    @include button(transparent, $gray);
+    padding: .4rem .4rem;
+    border: solid .09rem $gray;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+    &:hover {
+        color: $white;
+    }
+}

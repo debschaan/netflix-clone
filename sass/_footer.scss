@@ -1,0 +1,44 @@
+footer{
+    padding: 5rem 14.5rem 1rem;
+    flex-direction: column;
+
+    .footer-copyright {
+        color: $gray;
+        @include font ($weight: 300, $size: .8rem);
+    }
+
+    .social--list{
+        display: flex;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+        .social--item {
+            i{
+                font-size: 1.3rem;
+                color: $white;
+            }
+        }
+    }
+
+    .options--list {
+        @extend .social--list;
+        gap: 0;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .options--item {
+            a{
+                @extend %no-decoration;
+                @extend .footer-copyright;
+                display: list-item;
+                margin-bottom: .9rem;
+                padding-right: 1rem;
+                box-sizing: border-box;
+                width: 15rem;
+            }
+            &:hover{
+                @extend %u-decoration;
+                color: $gray;
+            }
+        }
+    }
+}
