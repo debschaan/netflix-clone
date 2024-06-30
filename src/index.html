@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8451551fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Netflix</title>
+</head>
+<body class="bg-background">
+    <div class="h-[50rem] bg-custom-gradient bg-cover">
+        <header>
+            <nav role="navigation" class="flex justify-between items-center py-4 fixed top-0 w-full transition-colors duration-500 ease">
+                <span class="bg-[url('/assets/img/Vector__3_.svg')] bg-no-repeat w-28 h-8 bg-contain cursor-pointer relative left-16" data-logo="Netflix's logo"><a href="#"></a></span>
+                <ul class="flex gap-8 absolute left-52">
+                    <li class="text-white font-normal text-base no-underline"><a class="hover:text-gray-300" href="#">Home</a></li>
+                    <li class="text-white font-normal text-base no-underline"><a class="hover:text-gray-300" href="#">Series</a></li>
+                    <li class="text-white font-normal text-base no-underline"><a class="hover:text-gray-300" href="#">Movies</a></li>
+                    <li class="text-white font-normal text-base no-underline"><a class="hover:text-gray-300" href="#">Trending</a></li>
+                    <li class="text-white font-normal text-base no-underline"><a class="hover:text-gray-300" href="#">My list</a></li>
+                </ul>
+                <ul class="flex items-center gap-6 relative right-16">
+                    <li class="flex items-center gap-2"><a class="text-white text-xl" href="#"><i class="fa-solid fa-search"></i></a></li>
+                    <li class="flex items-center gap-2"><a class="text-white text-xl" href="#"><i class="fa-solid fa-bell"></i></a></li>
+                    <li class="flex items-center gap-2">
+                        <span class="bg-[url('/assets/img/user_1.png')] w-8 h-8 bg-no-repeat" data-user="User's icon"><a href="#"></a></span>
+                        <a href="#"><i class="text-white fa-solid fa-caret-down"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <div role="banner" class="p-16">
+                <img class="w-[40rem] mb-4" src="/assets/img/poster 1.png" alt="Movie title logo">
+                <p class="w-[40rem] font-normal leading-6 text-base mb-8 text-white">In a state-of-the-art penitentiary, an inmate participates in an experiment with drugs that control emotions for a pharmaceutical genius.</p>
+                <button class="font-bold border-none py-4 px-9 rounded-md mr-4 text-base cursor-pointer bg-white text-background hover:bg-white/70 play"><i class="mr-2 fa-solid fa-play"></i>Assistir</button>
+                <button class="font-bold border-none py-4 px-9 rounded-md mr-4 text-base cursor-pointer bg-gray-200/60 text-white hover:bg-gray-300/55 info"><i class="mr-2 fa-solid fa-circle-info"></i>Mais informações</button>
+            </div>
+        </header>
+
+        <main class="px-16">
+            <h1 class="invisible">Homepage Netflix</h1>
+
+            <section class="mb-6">
+                <h3 class="mb-4 absolute"><a class="text-xl font-normal text-white no-underline hover:font-medium cursor-pointer" href="#">My list</a></h3>
+                <div class="category--carousel flex items-center"> 
+                    <span class="group carousel-button prev cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See before titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-left"></b>
+                    </span>
+                    <div class="carousel__container overflow-scroll whitespace-nowrap py-12 -mx-12">
+                        <ul class="carousel--list flex-row">
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_1.png" alt="Bojack Horseman"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_4.png" alt="Breaking Bad"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_3.png" alt="A Vizinha da Mulher na Janela"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_2.png" alt="Ozark"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_5.png" alt="The End of the F***ing World"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_6.png" alt="Russian Doll"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/minhalista_7.png" alt="Pray Away"></a></li>
+                        </ul>
+                    </div>
+                    <span class="group carousel-button next cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See more titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-right"></b>
+                    </span>
+                </div>
+            </section>
+
+            <section class="mb-6">
+                <h3 class="mb-4 absolute"><a class="text-xl font-normal text-white no-underline hover:font-medium cursor-pointer" href="#">Trending</a></h3>
+                <div class="category--carousel flex items-center"> 
+                    <span class="group carousel-button prev cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See before titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-left"></b>
+                    </span>
+                    <div class="carousel__container overflow-scroll whitespace-nowrap py-12 -mx-12">
+                        <ul class="carousel--list flex-row">
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_1.png" alt="Stranger Things"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_2.png" alt="The Umbrella Academy"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_4.png" alt="Arremessando Alto"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_5.png" alt="Amor & Gelato"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_3.png" alt="Peaky Blinders"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_6.png" alt="La Casa de Papel - Coreia"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/top_7.png" alt="Polar"></a></li>
+                        </ul>
+                    </div>
+                    <span class="group carousel-button next cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See more titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-right"></b>
+                    </span>
+                </div>
+            </section>
+
+            <section class="mb-6">
+                <h3 class="mb-4 absolute"><a class="text-xl font-normal text-white no-underline hover:font-medium cursor-pointer" href="#">Foreign series</a></h3>
+                <div class="category--carousel flex items-center"> 
+                    <span class="group carousel-button prev cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See before titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-left"></b>
+                    </span>
+                    <div class="carousel__container overflow-scroll whitespace-nowrap py-12 -mx-12">
+                        <ul class="carousel--list flex-row">
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_1.png" alt="Queen Loreta"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_2.png" alt="As 7 Vidas de Lea"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_3.png" alt="Young Royals"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_4.png" alt="Dark"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_5.png" alt="Bem-vindos ao Eden"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_6.png" alt="Ozark"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/estrangeiras_7.png" alt="Elize Matsunga"></a></li>
+                        </ul>
+                    </div>
+                    <span class="group carousel-button next cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See more titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-right"></b>
+                    </span>
+                </div>
+            </section>
+            
+            <section>
+                <h3 class="mb-4 absolute"><a class="text-xl font-normal text-white no-underline hover:font-medium cursor-pointer" href="#">Eccentric acid humor series</a></h3>
+                <div class="category--carousel flex items-center"> 
+                    <span class="group carousel-button prev cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See before titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-left"></b>
+                    </span>
+                    <div class="carousel__container overflow-scroll whitespace-nowrap py-12 -mx-12">
+                        <ul class="carousel--list flex-row">
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_1.png" alt="Fyre"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_2.png" alt="Friends from College"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_3.png" alt="Riverdale"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_4.png" alt="Velvet Buzzsaw"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_5.png" alt="Amazing Interiors"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_6.png" alt="The Good Place"></a></li>
+                            <li class="carousel--item mr-1 inline-block text-center duration-200 hover:scale-150 hover:relative hover:rounded-md"><a href="#"><img class="w-60 rounded" src="/assets/img/excentricas_7.png" alt="Unbreakable Kimmy Schmidt"></a></li>
+                        </ul>
+                    </div>
+                    <span class="group carousel-button next cursor-pointer text-4xl z-10 py-14 px-4 rounded bg-black/35 duration-100 hover:bg-black/80" role="button" aria-label="See more titles">
+                        <b class="text-white duration-100 opacity-10 group-hover:scale-125 group-hover:origin-center group-hover:opacity-100 fa-solid fa-chevron-right"></b>
+                    </span>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="pt-20 px-56 pb-4 flex-col" role="contentinfo">
+            <ul class="flex gap-6 mb-4">
+                <li><a aria-label="facebook" href="#"><i class="text-xl text-white bi bi-facebook"></i></a></li>
+                <li><a aria-label="instagram" href="#"><i class="text-xl text-white bi bi-instagram"></i></a></li>
+                <li><a aria-label="twitter" href="#"><i class="text-xl text-white bi bi-twitter"></i></a></li>
+                <li><a aria-label="youtube" href="#"><i class="text-xl text-white bi bi-youtube"></i></a></li>
+            </ul>
+            <div>
+                <ul class="flex items-start flex-row flex-wrap mb-4">
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Audiodescription</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Investor relations</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Legal information</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Help Center</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Recruitment</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Cookie preferences</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Gift Cards</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Terms of Use</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Legal Notice</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Press</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Confidentiality</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Contacts</a></li>
+                    <li><a class="list-item mb-3 pr-4 box-border text-gray-100 no-underline w-60 font-light text-sm hover:underline hover:decoration-gray-100" href="#">Informations</a></li>
+                </ul>
+            </div>
+            <button class="p-2 bg-transparent text-gray-100 border border-gray-100 border-solid text-sm mb-4 hover:text-white hover:cursor-pointer">Service Code</button>
+            <div><span class="text-gray-100 text-sm font-light">© 2024 Débora Schaan.</span></div>
+        </footer>
+    </div>
+    <script src="/app/main.js"></script>
+</body>
+</html>
+
