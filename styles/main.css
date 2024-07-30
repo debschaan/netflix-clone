@@ -1,41 +1,24 @@
 main {
-    padding: 0 4rem;
+    padding: 3rem 1rem 0;
 }
 
 .section__category {
-    margin-bottom: 2rem;
-}
-
-.category--title{
-    margin-bottom: 1rem;
-    position: absolute;
+    margin-bottom: 2.5rem;
 }
 
 .category--title a{
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: var(--white);
+    font-size: 1rem;
+    color: var(--gray);
+    font-weight: 700;
     text-decoration: none;
 }
 
-.category--title a:hover{
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.category--carousel{
-    display: flex;
-    align-items: center;
-    margin: -2rem 0;
-}
-
 .carousel--list {
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     white-space: nowrap;
-    display: inline-flex; 
-    width: 82rem;
-    padding: 3rem 0;
-    margin: 0 -3rem;
+    margin-top: 1rem;
+    padding-right: 20px;
     -ms-overflow-style: none;
     scrollbar-width: none; 
     list-style: none; 
@@ -44,21 +27,251 @@ main {
 .carousel--list::-webkit-scrollbar {
     display: none;
 }
-  
+
+.prev,
+.next {
+    display: none;
+}
+
 .carousel--item {
     display: inline-block;
     text-align: center;
     margin-right: .1rem;
     transition: .2s;
+    clear: both;
 }
 
-.carousel--item img {
-    width: 15rem;
-    border-radius: .2rem;
+.carousel--item .title-boxart {
+    display: block;
+    background-size: cover;
+    cursor: pointer;
+    padding: 28.125% 0;
 }
 
-.carousel--item:hover{
-    transform: scale(1.4);
-    position: relative;
-    border-radius: .4rem;
+.list-1 .img1{
+    background-image: url("../assets/img/minhalista_1.png");
+    width: 10rem;
+} 
+
+.list-1 .img2{
+    background-image: url("../assets/img/minhalista_2.png");
+    width: 10rem;
+} 
+
+.list-1 .img3{
+    background-image: url("../assets/img/minhalista_3.png");
+    width: 10rem;
+} 
+
+.list-1 .img4{
+    background-image: url("../assets/img/minhalista_4.png");
+    width: 10rem;
+} 
+
+.list-1 .img5{
+    background-image: url("../assets/img/minhalista_5.png");
+    width: 10rem;
+} 
+
+.list-1 .img6{
+    background-image: url("../assets/img/minhalista_6.png");
+    width: 10rem;
+} 
+
+.list-1 .img7{
+    background-image: url("../assets/img/minhalista_7.png");
+    width: 10rem;
+} 
+
+/* LISTA 2 */
+
+.list-2 .img1 {
+    background-image: url("../assets/img/top_1.png");
+    width: 10rem;
+}
+
+.list-2 .img2 {
+    background-image: url("../assets/img/top_2.png");
+    width: 10rem;
+}
+
+.list-2 .img3 {
+    background-image: url("../assets/img/top_3.png");
+    width: 10rem;
+}
+
+.list-2 .img4 {
+    background-image: url("../assets/img/top_4.png");
+    width: 10rem;
+}
+
+.list-2 .img5 {
+    background-image: url("../assets/img/top_5.png");
+    width: 10rem;
+}
+
+.list-2 .img6 {
+    background-image: url("../assets/img/top_6.png");
+    width: 10rem;
+}
+
+.list-2 .img7 {
+    background-image: url("../assets/img/top_7.png");
+    width: 10rem;
+}
+
+/* LISTA 3 */
+
+.list-3 .img1 {
+    background-image: url("../assets/img/estrangeiras_1.png");
+    width: 10rem;
+}
+
+.list-3 .img2 {
+    background-image: url("../assets/img/estrangeiras_2.png");
+    width: 10rem;
+}
+
+.list-3 .img3 {
+    background-image: url("../assets/img/estrangeiras_3.png");
+    width: 10rem;
+}
+
+.list-3 .img4 {
+    background-image: url("../assets/img/estrangeiras_4.png");
+    width: 10rem;
+}
+
+.list-3 .img5 {
+    background-image: url("../assets/img/estrangeiras_5.png");
+    width: 10rem;
+}
+
+.list-3 .img6 {
+    background-image: url("../assets/img/estrangeiras_6.png");
+    width: 10rem;
+}
+
+.list-3 .img7 {
+    background-image: url("../assets/img/estrangeiras_7.png");
+    width: 10rem;
+}
+
+/* LISTA 4 */
+
+.list-4 .img1 {
+    background-image: url("../assets/img/excentricas_1.png");
+    width: 10rem;
+}
+
+.list-4 .img2 {
+    background-image: url("../assets/img/excentricas_2.png");
+    width: 10rem;
+}
+
+.list-4 .img3 {
+    background-image: url("../assets/img/excentricas_3.png");
+    width: 10rem;
+}
+
+.list-4 .img4 {
+    background-image: url("../assets/img/excentricas_4.png");
+    width: 10rem;
+}
+
+.list-4 .img5 {
+    background-image: url("../assets/img/excentricas_5.png");
+    width: 10rem;
+}
+
+.list-4 .img6 {
+    background-image: url("../assets/img/excentricas_6.png");
+    width: 10rem;
+}
+
+.list-4 .img7 {
+    background-image: url("../assets/img/excentricas_7.png");
+    width: 10rem;
+}
+
+
+/* RESPONSIVIDADE */
+/* TABLETS */
+@media (min-width:480px) and (max-width:799px){
+    main {
+        padding: 3rem 2rem 0;
+    }
+    .category--carousel{
+        position: relative;
+    }
+
+    .category--title a{
+        font-size: .8rem;
+    }
+    
+    .prev,
+    .next {
+        display: flex;
+        bottom: 0;
+        color: #fff;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 4%;
+        z-index: 20;
+        background-color: var(--black-btn);
+    }
+}
+
+/* DESKTOP */
+@media (min-width:800px) and (max-width:1200px){
+    main {
+        margin: 0 2rem 2rem;
+    }
+    
+    .section__category {
+        margin-bottom: 2rem;
+    }
+
+    .category--carousel{
+        position: relative;
+    }
+    
+    .category--title a:hover{
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .prev,
+    .next {
+        display: flex;
+        bottom: 0;
+        color: #fff;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 4%;
+        z-index: 20;
+        background-color: var(--black-btn);
+    }
+
+    .category--title a{
+        font-weight: 400;
+    }
+    
+    .carousel--list::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .carousel--item .title-boxart {
+        border-radius: .2rem;
+        width: 14rem;
+    }
+    
+    .carousel--item:hover{
+        transform: scale(1.4);
+        border-radius: .4rem;
+    }
 }

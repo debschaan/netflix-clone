@@ -1,6 +1,6 @@
 //NAVIGATION FADING
 window.addEventListener('scroll', function() {
-    const nav = document.querySelector('nav');
+    const nav = document.querySelector('.menu');
     if (window.scrollY > 0) { // Verifica se houve scroll
       nav.classList.add('scrolled');
     } else {

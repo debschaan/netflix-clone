@@ -1,16 +1,51 @@
-.hero {
-    padding: 4rem;
+.hero, .hero--logo, .hero--description {
+    display: none;
 }
 
-.hero--logo {
-    width: 40rem;
-    margin-bottom: 1rem;
+/* RESPONSIVIDADE */
+/* TABLETS */
+@media (min-width:480px) and (max-width:799px){
+    .hero, .hero--logo, .hero--description {
+        display: block;
+    }
+
+    .hero{
+        padding-left: 2rem;
+    }
+    
+    .hero--logo {
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+    
+    .hero--description {
+        width: 40%;
+        line-height: 1rem;
+        font-size: .8rem;
+        margin-bottom: 1rem;
+    }
 }
 
-.hero--description {
-    width: 40rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+/* DESKTOP */
+@media (min-width:800px) and (max-width:1200px){
+    .hero, .hero--logo, .hero--description {
+        display: block;
+    }
+
+    .hero {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .hero--logo {
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+    
+    .hero--description {
+        width: 40%;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
 }
