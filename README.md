@@ -36,6 +36,6 @@ This is a simplified FrontEnd project of Netflix. It was a practice of HTML, CSS
 - [x] Basic HTML, CSS and JS web page
 - [x] Sass version
 - [x] TailwindCSS version
-- [ ] Responsive - mobile and tablet versions
+- [x] Responsive - mobile and tablet versions
 
 Please feel free to create a pull request and submit any issues!
